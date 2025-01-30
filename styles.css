@@ -9,7 +9,9 @@
 body {
   margin: 15px;
   font-family: "Cantata One", serif;
-
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -19,11 +21,14 @@ h1 {
 }
 
 h2 a {
+  font-size: 25px;
+  align-items: center;
   font-family: "Cantata One", serif;
   color: #16a085;
   text-decoration: none;
   /* Removes underline */
 }
+
 
 h2 a:hover {
   color: #00aade;
@@ -31,12 +36,26 @@ h2 a:hover {
 }
 
 img {
-  float: left;
-  margin: 15px;
-  width: 100;
+  float: center;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  border-radius: 8px;
 }
 
-.image-container {
-  clear: both;
-  /* Ensures that the container recognizes the floated images */
+/* Lists */
+ul {
+  list-style-type: none;
+  /* Removes default bullets */
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Improve "More Info" Section */
+strong {
+  color: #1abc9c;
 }
