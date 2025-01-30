@@ -1,3 +1,11 @@
+/* Imported the Cantata One from Google Fonts, as it didn't showed up before (looks like it was not enough with just adding "font-family"*/
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+/* Apply Cantata One to everything */
+body {
+  font-family: "Cantata One", serif;
+}
+
 .header {
   padding: 60px;
   text-align: center;
@@ -31,7 +39,7 @@ h2 a {
 
 
 h2 a:hover {
-  color: #00aade;
+  color: #12836c;
   /* Slightly darker shade for hover effect */
 }
 
@@ -53,9 +61,4 @@ ul {
 
 ul li {
   margin-bottom: 5px;
-}
-
-/* Improve "More Info" Section */
-strong {
-  color: #1abc9c;
 }
