@@ -1,10 +1,6 @@
-/* Imported the Cantata One from Google Fonts, as it didn't showed up before (looks like it was not enough with just adding "font-family"*/
+/* Imported the Cantata One from Google Fonts (as it didn't showed up before (looks like it was not enough with just adding "font-family") and added a new font "Cormorant Garamond" that's more suitable for reading longer pieces of text*/
 @import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
-
-/* Apply Cantata One to everything */
-body {
-  font-family: "Cantata One", serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .header {
   padding: 60px;
@@ -37,10 +33,15 @@ h2 a {
   /* Removes underline */
 }
 
-
 h2 a:hover {
   color: #12836c;
   /* Slightly darker shade for hover effect */
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 img {
