@@ -36,7 +36,7 @@ h2 a {
   font-family: "Cantata One", serif;
   color: #16a085;
   text-decoration: none;
-  /* Removes underline */
+  /* Removes underline to not make it look like plain html*/
 }
 
 h2 a:hover {
